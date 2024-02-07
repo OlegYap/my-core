@@ -1,5 +1,6 @@
 <?php
 
+namespace Container;
 class Container
 {
     private array $services;
