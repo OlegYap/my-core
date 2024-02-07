@@ -85,7 +85,7 @@ class App
             ];
     }
 
-    public function setContainer(\Core\Container $container): void
+    public function setContainer(\admin1\MyCore\Container\Container $container): void
     {
         $this->container = $container;
         $this->loggerService = $container->get(LoggerService::class);
