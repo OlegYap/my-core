@@ -4,7 +4,7 @@ use Admin1\MyCore\Model\Error;
 use Request\Request;
 use Service\LoggerService;
 
-
+namespace admin1\MyCore;
 class App
 {
     private Container $container;
