@@ -1,8 +1,9 @@
 <?php
 namespace admin1\MyCore;
 use admin1\MyCore\Container\Container;
-use admin1\MyCore\Service\LoggerService;
-use admin1\MyCore\Request\Request;
+use Request\Request;
+use Service\LoggerService;
+
 
 class App
 {
