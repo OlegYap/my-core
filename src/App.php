@@ -1,10 +1,9 @@
 <?php
-
-use Admin1\MyCore\Model\Error;
-use Request\Request;
-use Service\LoggerService;
-
 namespace admin1\MyCore;
+use admin1\MyCore\Container\Container;
+use admin1\MyCore\Service\LoggerService;
+use admin1\MyCore\Request\Request;
+
 class App
 {
     private Container $container;
