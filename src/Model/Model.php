@@ -1,6 +1,6 @@
 <?php
 
-namespace Model;
+namespace Admin1\MyCore\Model;
 class Model
 {
     protected static PDO $pdo;

@@ -1,5 +1,7 @@
 <?php
 
+namespace admin1\MyCore;
+
 class Autoloader
 {
     public static function registrate(string $dir): void

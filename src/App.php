@@ -1,13 +1,13 @@
 <?php
 
-
-use Model\Error;
+use Admin1\MyCore\Model\Error;
 use Request\Request;
 use Service\LoggerService;
 
+
 class App
 {
-    private \Core\Container $container;
+    private Container $container;
     private LoggerService $loggerService;
     private array $routes = [];
 

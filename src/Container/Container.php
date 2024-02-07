@@ -1,6 +1,6 @@
 <?php
 
-namespace Container;
+namespace Admin1\MyCore\Container;
 class Container
 {
     private array $services;
